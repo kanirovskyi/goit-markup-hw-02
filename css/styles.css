@@ -48,3 +48,7 @@
   padding-left: 0;
   margin-left: 0;
 }
+
+a.logodecor {
+  text-decoration: none;
+}
