@@ -35,7 +35,7 @@
   color: #2e2f42;
 }
 
-a.logodecor {
+a {
   text-decoration: none;
 }
 
@@ -44,31 +44,13 @@ a.main-nav-pages-style {
 }
 
 .nav-studio-view {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
   text-decoration: none;
 }
 
 .nav-portfolio-view {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
   text-decoration: none;
 }
 
 .nav-contacts-view {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
   text-decoration: none;
 }
