@@ -22,27 +22,43 @@
 
   <!--MainPage-->
   <body>
-    <!--TopLineFixed-->
-    <header class="page-header">
+    <!--Header сторінки Index (ідентичний для Portfolio)-->
+    <header class="navi">
       <nav>
-        <a href="./index.html" class="logodecor">
+        <!--Logo WebStudio-->
+        <a href="./index.html" target="_parent" class="logodecor">
           <span class="logoweb">WEB</span><span class="logostudio">STUDIO</span>
         </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+
+        <!--Список навігації-->
+        <ul class="main-navi list">
+          <!--Studio-->
+          <li>
+            <a href="./index.html" target="_parent" class="navi-link current"
+              >Studio</a
+            >
+          </li>
+          <!--Portfolio-->
+          <li>
+            <a href="./portfolio.html" target="_parent" class="navi-link"
+              >Portfolio</a
+            >
+          </li>
+          <!--Contacts-->
+          <li><a href="" class="navi-link">Contacts</a></li>
         </ul>
       </nav>
-      <address class="contacts-conteiner">
-        <ul>
+
+      <!--Блок телефон та електронна пошта-->
+      <address>
+        <ul class="contacts-conteiner">
           <li>
-            <a href="mailto:info@devstudio.com" class="contacts-mail"
+            <a href="mailto:info@devstudio.com" class="contacts-link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="contacts-phone"
+            <a href="tel:+110001111111" class="contacts-link"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -50,52 +66,49 @@
       </address>
     </header>
 
-    <!--HeroImage + background-->
+    <!--Основний контент HeroImage, унікальний контент-->
     <main>
-      <!--Section1-->
-      <section class="heroimage">
+      <!--Section1 HeroImage-->
+      <section class="hero-section">
         <!--Main Central Text -->
-        <h1 class="main_cental_text_effects">
-          Effective Solutions for Your Business
-        </h1>
+        <h1 class="hero-image-text">Effective Solutions for Your Business</h1>
         <!--Button HeroImage-->
-        <button type="button" class="heroimage_button">Order Service</button>
+        <button type="button" class="heroimage-button">Order Service</button>
       </section>
 
-      <!--Section2-->
-      <section class="section2">
+      <!--Section2 Preferences-->
+      <section class="preferences">
         <h2 class="visually-hidden">Preferences</h2>
 
         <ul>
           <!--Section 1 block 1-->
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="preferences-list">Strategy</h3>
+            <p class="pref-paragraph">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <!--Section 1 block 2-->
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="preferences-list">Punctuality</h3>
+            <p class="pref-paragraph">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <!--Section 1 block 3-->
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="preferences-list">Diligence</h3>
+            <p class="pref-paragraph">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-
           <!--Section 1 block 4-->
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="preferences-list">Technologies</h3>
+            <p class="pref-paragraph">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -103,9 +116,9 @@
         </ul>
       </section>
 
-      <!--Section3-->
-      <section class="section3">
-        <h2 class="section2_text">What are we doing</h2>
+      <!--Section3 What are we doing-->
+      <section class="what-wer-doing">
+        <h2 class="wwd-text">What are we doing</h2>
 
         <ul>
           <!--Image1-->
@@ -138,9 +151,9 @@
         </ul>
       </section>
 
-      <!--Section5-->
-      <section class="section4">
-        <h2 class="section3_text">Our Team</h2>
+      <!--Section4 Our Team-->
+      <section class="our-team">
+        <h2 class="our-team-text">Our Team</h2>
 
         <ul>
           <!--Section3 card 1-->
@@ -149,10 +162,10 @@
               src="./images/img-1-3-1.jpg"
               alt="Mark Guerrero's photo"
               width="264"
-              class="section3_photos"
+              class="team-photo"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="partner-name">Mark Guerrero</h3>
+            <p class="partner-place">Product Designer</p>
           </li>
           <!--Section3 card 2-->
           <li>
@@ -160,10 +173,10 @@
               src="./images/img-1-3-2.jpg"
               alt="Tom Ford's photo"
               width="264"
-              class="section3_photos"
+              class="team-photo"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="partner-name">Tom Ford</h3>
+            <p class="partner-place">Frontend Developer</p>
           </li>
           <!--Section3 card 3-->
           <li>
@@ -171,10 +184,10 @@
               src="./images/img-1-3-3.jpg"
               alt="Camila Garcia's photo"
               width="264"
-              class="section3_photos"
+              class="team-photo"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="partner-name">Camila Garcia</h3>
+            <p class="partner-place">Marketing</p>
           </li>
           <!--Section3 card 4-->
           <li>
@@ -182,18 +195,22 @@
               src="./images/img-1-3-4.jpg"
               alt="Daniel Wilson's photo"
               width="264"
-              class="section3_photos"
+              class="team-photo"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="partner-name">Daniel Wilson</h3>
+            <p class="partner-place">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!--Footer-->
+    <!--Футер сторінки Index (ідентичний для Portfolio)-->
     <footer class="underground">
-      <a href="./index.html">WebStudio</a>
+      <!--Logo WebStudio-->
+      <a href="./index.html" target="_parent" class="logodecor">
+        <span class="logoweb">WEB</span
+        ><span class="logostudiofooter">STUDIO</span>
+      </a>
 
       <!--footer text-->
       <p class="footer_text">
