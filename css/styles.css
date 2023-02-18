@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+.nav {
+  flex-direction: row;
+}
+
 .logoweb {
   height: 24px;
 
@@ -36,21 +40,5 @@
 }
 
 a {
-  text-decoration: none;
-}
-
-a.main-nav-pages-style {
-  text-decoration: none;
-}
-
-.nav-studio-view {
-  text-decoration: none;
-}
-
-.nav-portfolio-view {
-  text-decoration: none;
-}
-
-.nav-contacts-view {
   text-decoration: none;
 }
