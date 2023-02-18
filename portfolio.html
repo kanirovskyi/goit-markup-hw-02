@@ -13,46 +13,46 @@
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
+  <!--MainPage-->
   <body>
-    <!--Хедер сторінки Portfolio-->
-    <header class="page-header">
+    <!--Header сторінки Portfolio (ідентичний для Index)-->
+    <header class="navi">
       <nav>
-        <!--Посилання-Логотип WEBSTUDIO-->
-        <a class="logodecor" href="./index.html">
+        <!--Logo WebStudio-->
+        <a href="./index.html" target="_parent" class="logodecor">
           <span class="logoweb">WEB</span><span class="logostudio">STUDIO</span>
         </a>
 
-        <!--Елементи меню навігаціі - сторінки-->
-        <ul>
-          <!--Пункт меню навігації сторінка Studio-->
-          <li class="position-studio">
-            <a class="main-nav-pages-style" href=""
-              ><span class="nav-studio-view">Studio</span></a
+        <!--Список навігації-->
+        <ul class="main-navi list">
+          <!--Studio-->
+          <li>
+            <a href="./index.html" target="_parent" class="navi-link current"
+              >Studio</a
             >
           </li>
-          <!--Пункт меню навігації сторінка Portfolio-->
-          <li class="position-portfolio">
-            <a class="main-nav-pages-style" href=""
-              ><span class="nav-portfolio-view">Portfolio</span></a
+          <!--Portfolio-->
+          <li>
+            <a href="./portfolio.html" target="_parent" class="navi-link"
+              >Portfolio</a
             >
           </li>
-          <!--Пункт меню навігації сторінка Contacts-->
-          <li class="position-contacts">
-            <a class="main-nav-pages-style" href=""
-              ><span class="nav-contacts-view">Contacts</span></a
-            >
-          </li>
+          <!--Contacts-->
+          <li><a href="" class="navi-link">Contacts</a></li>
         </ul>
       </nav>
-      <address class="contacts-conteiner">
-        <ul>
+
+      <!--Блок телефон та електронна пошта-->
+      <address>
+        <ul class="contacts-conteiner">
           <li>
-            <a href="mailto:info@devstudio.com" class="contacts-mail"
+            <a href="mailto:info@devstudio.com" class="contacts-link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="contacts-phone"
+            <a href="tel:+110001111111" class="contacts-link"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -62,16 +62,27 @@
 
     <!--Основний контент Portfolio, унікальний контент-->
     <main>
+      <!--Hidden H1-->
+      <h1 class="section-title visually-hidden">Portfolio</h1>
+
       <section>
-        <!--Hidden H1-->
-        <h1 class="visually-hidden">Portfolio</h1>
-        <!--Список для Filters-->
+        <!--Список для Filters (Buttons)-->
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <button type="button" class="filter-button">All</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Web Site</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">App</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Design</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Marketing</button>
+          </li>
         </ul>
 
         <!--Hidden H2-->
@@ -86,8 +97,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="image-text-title">Banking App Interface Concept</h3>
+            <p class="image-description">App</p>
           </li>
           <!--Image2-->
           <li>
@@ -97,8 +108,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="image-text-title">Cashless Payment</h3>
+            <p class="image-description">Marketing</p>
           </li>
           <!--Image3-->
           <li>
@@ -108,8 +119,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <h3 class="image-text-title">Meditaion App</h3>
+            <p class="image-description">App</p>
           </li>
           <!--Image4-->
           <li>
@@ -119,8 +130,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="image-text-title">Taxi Service</h3>
+            <p class="image-description">Marketing</p>
           </li>
           <!--Image5-->
           <li>
@@ -130,8 +141,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="image-text-title">Screen Illustrations</h3>
+            <p class="image-description">Design</p>
           </li>
           <!--Image6-->
           <li>
@@ -141,8 +152,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="image-text-title">Online Courses</h3>
+            <p class="image-description">Marketing</p>
           </li>
           <!--Image7-->
           <li>
@@ -152,8 +163,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="image-text-title">Instagram Stories Concept</h3>
+            <p class="image-description">Design</p>
           </li>
           <!--Image8-->
           <li>
@@ -163,8 +174,8 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="image-text-title">Organic Food</h3>
+            <p class="image-description">Web Site</p>
           </li>
           <!--Image9-->
           <li>
@@ -174,16 +185,20 @@
               width="360"
               class="portf-photos"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="image-text-title">Fresh Coffee</h3>
+            <p class="image-description">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!--Футер сторінки Portfolio-->
+    <!--Футер сторінки Portfolio (ідентичний для Index)-->
     <footer class="underground">
-      <a href="./index.html">WebStudio</a>
+      <!--Logo WebStudio-->
+      <a href="./index.html" target="_parent" class="logodecor">
+        <span class="logoweb">WEB</span
+        ><span class="logostudiofooter">STUDIO</span>
+      </a>
 
       <!--footer text-->
       <p class="footer_text">
