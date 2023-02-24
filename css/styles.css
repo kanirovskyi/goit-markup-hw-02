@@ -18,6 +18,7 @@ body {
 
   font-family: "Roboto";
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -110,7 +111,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   /* or 107% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -124,7 +125,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
 
   letter-spacing: 0.04em;
@@ -142,7 +143,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
@@ -154,10 +155,9 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* or 150% */
 
-  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -166,7 +166,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -185,7 +185,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -199,7 +199,7 @@ a {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -208,10 +208,8 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
-
-  letter-spacing: 0.02em;
 
   color: var(--text-color);
 }
@@ -256,7 +254,7 @@ a {
 .section-title {
   color: var(--dark-color);
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
@@ -266,13 +264,12 @@ a {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .image-description {
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -286,7 +283,7 @@ a {
   font-family: "Raleway", Sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -296,8 +293,7 @@ a {
   color: var(--accent-color);
   background-color: var(--dark-color);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .list {
