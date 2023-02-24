@@ -34,7 +34,7 @@ body {
   overflow: hidden;
 }
 
-/* Header */
+/* ----------------Header---------------- */
 
 .navi {
   background-color: var(--white-color);
@@ -94,7 +94,7 @@ a {
   color: var(--pressed-state);
 }
 
-/* Main page (Index)*/
+/* ----------------Main page (Index)---------------- */
 
 .hero-section {
   background-color: var(--hero-background-color);
@@ -237,7 +237,7 @@ a {
   line-height: 1.5;
 }
 
-/* Footer */
+/* ----------------Footer---------------- */
 
 .underground {
   background: var(--dark-color);
